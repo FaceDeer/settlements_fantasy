@@ -1,9 +1,6 @@
 This mod adds settlements on world generation. The settlements consist of a cluster of small buildings whose construction sites blend into the contours of the world around them and which are connected by non-rectilinear gravel paths. They are the equivalent of small hamlets or thorpes, not grand villages or towns.
 
-## Dependencies
-
-- [named_waypoints](https://github.com/FaceDeer/named_waypoints) is a required dependency.
-- [namegen](https://github.com/FaceDeer/namegen) is a recommended optional dependency.
+- [namegen](https://github.com/FaceDeer/namegen) is a recommended optional dependency, this gives each settlement a unique name.
 
 ## Types of settlements
 
