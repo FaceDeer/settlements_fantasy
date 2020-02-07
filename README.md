@@ -22,7 +22,13 @@ Deep arctic environments contain the occasional cluster of igloos, small islands
 
 Likewise, the deep jungles have platform villages hidden in the canopies of trees - hard to spot while walking through the dense foliage, best located at night when the light from their torches may be seen. These isolated tribes have no marketplaces either.
 
-There's also an underwater settlement type crafted from coral available in this mod, though it is disabled by default in the mod's settings.
+![Merfolk Settlement](settlements_mer/screenshot.jpg)
+
+Underwater can be found small "huts" crafted from living coral, used by aquatic beings.
+
+![Ruins](settlements_ruins/screenshot.jpg)
+
+And out in the most inhospitabl wastes are the remains of old failed settlements, now known by dark names when they're known at all.
 
 ## Discovering settlement names
 
