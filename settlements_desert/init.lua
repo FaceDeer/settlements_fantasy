@@ -1,7 +1,6 @@
-local modpath = minetest.get_modpath(minetest.get_current_modname())
-
--- internationalization boilerplate
-local S, NS = settlements.S, settlements.NS
+local modname = minetest.get_current_modname()
+local modpath = minetest.get_modpath(modname)
+local S = minetest.get_translator(modname)
 
 -- Node initialization
 local function fill_chest(pos)

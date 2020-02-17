@@ -1,0 +1,2 @@
+Desert settlement=
+desert village=
