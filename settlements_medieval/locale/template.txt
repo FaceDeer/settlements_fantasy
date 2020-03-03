@@ -1,3 +1,10 @@
+# textdomain: settlements_medieval
+
+
+### init.lua ###
+
 @1 Town Hall=
+
 Town=
+
 village=

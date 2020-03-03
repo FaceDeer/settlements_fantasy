@@ -1,2 +1,8 @@
+# textdomain: settlements_desert
+
+
+### init.lua ###
+
 Desert settlement=
+
 desert village=

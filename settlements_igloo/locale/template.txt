@@ -1,2 +1,8 @@
+# textdomain: settlements_igloo
+
+
+### init.lua ###
+
 Inuit camp=
+
 cluster of igloos=

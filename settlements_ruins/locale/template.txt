@@ -1,2 +1,8 @@
+# textdomain: settlements_ruins
+
+
+### init.lua ###
+
 Ruins=
+
 ruins=

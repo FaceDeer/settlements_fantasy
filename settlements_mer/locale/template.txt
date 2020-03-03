@@ -1,2 +1,8 @@
+# textdomain: settlements_mer
+
+
+### init.lua ###
+
 Mer camp=
+
 coral village=
