@@ -183,7 +183,7 @@ local medieval_settlements = {
 		"default:dirt_with_coniferous_litter",
 		"default:sand",
 		"default:silver_sand",
-		"default:snow_block",
+		"default:snowblock",
 	},
 
 	-- TODO: add a biome list. The tricky part here is, what if a biome list but not a surface materials list is provided?
