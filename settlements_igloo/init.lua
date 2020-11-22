@@ -4,8 +4,8 @@ local S = minetest.get_translator(modname)
 
 local schem_path = modpath.."/schematics/"
 
-if minetest.get_modpath("namegen") then
-	namegen.parse_lines(io.lines(modpath.."/namegen_inuit.cfg"))
+if minetest.get_modpath("name_generator") then
+	name_generator.parse_lines(io.lines(modpath.."/namegen_inuit.cfg"))
 end
 
 -- Node initialization
@@ -59,8 +59,8 @@ local inuit_settlements = {
 	},
 
 	generate_name = function(pos)
-		if minetest.get_modpath("namegen") then
-			return namegen.generate("inuit_camps")
+		if minetest.get_modpath("name_generator") then
+			return name_generator.generate("inuit_camps")
 		end
 		return S("Inuit camp")
 	end,

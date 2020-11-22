@@ -4,8 +4,8 @@ local S = minetest.get_translator(modname)
 
 local schem_path = modpath.."/schematics/"
 
-if minetest.get_modpath("namegen") then
-	namegen.parse_lines(io.lines(modpath.."/namegen_towns.cfg"))
+if minetest.get_modpath("name_generator") then
+	name_generator.parse_lines(io.lines(modpath.."/namegen_towns.cfg"))
 end
 
 -------------------------------------
@@ -250,8 +250,8 @@ local medieval_settlements = {
 	altitude_max = 300,
 
 	generate_name = function(pos)
-		if minetest.get_modpath("namegen") then
-			return namegen.generate("settlement_towns")
+		if minetest.get_modpath("name_generator") then
+			return name_generator.generate("settlement_towns")
 		end
 		return S("Town")
 	end,

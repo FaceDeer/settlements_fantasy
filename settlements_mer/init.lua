@@ -54,14 +54,14 @@ local mer_settlements = {
 	},
 
 	generate_name = function(pos)
-		if minetest.get_modpath("namegen") then
-			return namegen.generate("mer_settlements")
+		if minetest.get_modpath("name_generator") then
+			return name_generator.generate("mer_settlements")
 		end
 		return S("Mer camp")
 	end,
 }
 
-if minetest.get_modpath("namegen") then
-	namegen.parse_lines(io.lines(modpath.."/namegen_mer.cfg"))
+if minetest.get_modpath("name_generator") then
+	name_generator.parse_lines(io.lines(modpath.."/namegen_mer.cfg"))
 end
 settlements.register_settlement("mer", mer_settlements)

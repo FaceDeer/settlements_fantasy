@@ -112,8 +112,8 @@ local desert_settlements = {
 	},
 
 	generate_name = function(pos)
-		if minetest.get_modpath("namegen") then
-			return namegen.generate("desert_settlement")
+		if minetest.get_modpath("name_generator") then
+			return name_generator.generate("desert_settlement")
 		end
 		return S("Desert settlement")
 	end,
@@ -121,8 +121,8 @@ local desert_settlements = {
 	generate_book = generate_book,
 }
 
-if minetest.get_modpath("namegen") then
-	namegen.parse_lines(io.lines(modpath.."/namegen_desert.cfg"))
+if minetest.get_modpath("name_generator") then
+	name_generator.parse_lines(io.lines(modpath.."/namegen_desert.cfg"))
 end
 
 settlements.register_settlement("desert", desert_settlements)

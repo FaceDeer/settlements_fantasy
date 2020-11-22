@@ -53,15 +53,15 @@ local ruin_settlements = {
 	},
 
 	generate_name = function(pos)
-		if minetest.get_modpath("namegen") then
-			return namegen.generate("ruin_settlement")
+		if minetest.get_modpath("name_generator") then
+			return name_generator.generate("ruin_settlement")
 		end
 		return S("Ruins")
 	end,
 }
 
-if minetest.get_modpath("namegen") then
-	namegen.parse_lines(io.lines(modpath.."/namegen_ruins.cfg"))
+if minetest.get_modpath("name_generator") then
+	name_generator.parse_lines(io.lines(modpath.."/namegen_ruins.cfg"))
 end
 
 settlements.register_settlement("ruins", ruin_settlements)
